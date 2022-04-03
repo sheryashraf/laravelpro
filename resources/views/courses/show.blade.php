@@ -3,11 +3,10 @@
 {{-- <h1> contact us
 </h1> --}}
 @section('contact')
-    my post
 {{-- @dd($data["title"]) --}}
-    <div class="card container" style="width: 18rem;">
+    <div class="card container" >
       <h5 class="card-header">Courses Details
-        <a href="/availablecourse" class="btn btn-primary bttn rounded-pill">Back</a>
+        <a href="/availablecourse" class="btn btn-primary ">Back</a>
     
       </h5>
         <div class="card-body">
@@ -20,17 +19,17 @@
           {{-- <a href="/posts" class="btn btn-primary">back</a> --}}
         </div>
         <div class="card">
-          <h5 class="card-header">Course Reviews</h5>
+          <h5 class="card-header">Course comments</h5>
           <div class="card-body">
-        <h5> Add Feedback</h5>
+        <h5> Add comment</h5>
            <form action="{{route('comments.store')}}"" method="POST">
         @csrf
-        <textarea class="form-control rounded-pill" name="body">
+        <textarea class="form-control " name="body">
         </textarea>
         <input type="text" name="course_id" hidden value="{{$data->id}}">
         <br>
         
-        <input type="submit" class="btn btn-success rounded-pill" value="Add Feedback">
+        <input type="submit" class="btn btn-success " value="Add comment">
             </form>
           </div>
         </div>
