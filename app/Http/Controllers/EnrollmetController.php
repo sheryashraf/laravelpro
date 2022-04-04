@@ -48,13 +48,7 @@ class EnrollmetController extends Controller
         Enrollmet::create(['user_id' => Auth::user()->id, 'course_id' => $request->id]);
         return back();
 
-        // return view('enrollments.enroll', ["data" => $enrollment]);
-
-        // $input = $request->all();
-        // $input['user_id'] = auth()->user()->id;
-        // Course::create($input);
-        // return redirect('/courses')->with('message', 'Course Created Successfully');
-        // return redirect('/enrollments/enroll');
+        
     }
     /**
      * Display the specified resource.

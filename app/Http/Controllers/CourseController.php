@@ -130,13 +130,11 @@ $input['course_id']=$id;
 CourseUser::create($input);
 
 return redirect("/availablecourse");
-// ->withSuccess(' Cource Enroll Successfuly ');
-dd($input);
+// dd($input);
 }
 public function courseenroll()
 {
 $inp=auth()->user()->coursess;
-// return view('courses.entrollment',["data"=>$inp]);
 return view('courses.enrollment', ["data" => $inp]);
 
     dd($inp);

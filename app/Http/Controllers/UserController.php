@@ -62,7 +62,6 @@ class UserController extends Controller
     public function edit(User $user)
     {
         // dd($user);
-        // $user = User::findorfail($user);
         return view("layout.editprofile", ["data" => $user]);
     }
 
@@ -76,12 +75,7 @@ class UserController extends Controller
     public function update(Request $request, User $user)
     {
 
-        // $user = user::findorfail($user);
-        // dd($request);
-        // $user->name = request("name");
-        // $user->update($request->all());
-        // return redirect("/userprofile");
-        // dd($request->all());
+    
         $user->update($request->all());
         return redirect("/userprofile");
 

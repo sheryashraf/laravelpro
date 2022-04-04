@@ -12,7 +12,6 @@ create courses
 <body>
     <form class="container" action="/courses" method="post">
       @csrf   
-                          {{-- to i can enter data by post --}}
         <div class="mb-3"  >
           <label for="exampleInputEmail1" class="form-label">name</label>
           <input type="text" name="name" class="form-control">

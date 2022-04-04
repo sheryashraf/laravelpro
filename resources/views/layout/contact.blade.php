@@ -23,11 +23,6 @@
     width: 100%
 }
 
-/* .overlay {
-    width: 100%;
-    height: 100vh;
-    background: rgba(0, 0, 0, 0.8)
-} */
 
 .contact-us {
     margin-top: 50px;
@@ -36,71 +31,7 @@
 
 }
 
-/* .contact-us h3,
-p {
-    color: #fff
-} */
 
-/* .address {
-    margin-top: 14px !important;
-    margin-left: 10px
-} */
-
-/* .address span {
-    color: #dea9f8
-} */
-/* 
-.icons {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: #fff;
-    display: inline-block;
-    display: flex;
-    justify-content: center;
-    align-items: center
-}
-
-.icons i {
-    font-size: 20px
-} */
-
-/* .forms {
-    padding:70px
-} */
-
-/* .inputs input {
-    margin-bottom: 13px;
-    border: none;
-    border-bottom: 2px solid #eee
-} */
-
-/* .inputs input:focus {
-    margin-bottom: 13px;
-    border: none;
-    border-bottom: 2px solid #7B1FA2;
-    box-shadow: none
-}
-
-.inputs textarea {
-    margin-bottom: 13px;
-    border: none;
-    border-bottom: 2px solid #eee;
-    width: 100%;
-    resize: none
-}
-
-.inputs textarea:focus {
-    margin-bottom: 13px;
-    border: none;
-    border-bottom: 2px solid #7B1FA2;
-    box-shadow: none;
-    resize: none
-} */
-
-/* .form-control {
-    padding: .375rem .25rem
-} */
         </style>
 </head>
 
@@ -116,21 +47,7 @@ p {
                     <div class="row">
                         <div class="">
                             <div class=" text-center px-3">
-                                {{-- <div class="d-flex flex-row align-items-center"> <span class="icons"><i class="fa fa-map-marker"></i></span> --}}
-                                    {{-- <div class="address text-left"> <span>Address</span>
-                                        <p>461, Assuit,Egypt</p>
-                                    </div> --}}
-                                {{-- </div> --}}
-                                {{-- <div class="d-flex flex-row align-items-center mt-3"> <span class="icons"><i class="fa fa-phone"></i></span> --}}
-                                    {{-- <div class="address text-left"> <span>Phone</span>
-                                        <p>0111 205 2929</p>
-                                    </div> --}}
-                                {{-- </div> --}}
-                                {{-- <div class="d-flex flex-row align-items-center mt-3"> <span class="icons"><i class="fa fa-envelope-o"></i></span> --}}
-                                    {{-- <div class="address text-left"> <span>Email</span>
-                                        <p>contact@courses.com</p>
-                                    </div> --}}
-                                {{-- </div> --}}
+                               
                             </div>
                         </div>
                         <div class="col-md-6">

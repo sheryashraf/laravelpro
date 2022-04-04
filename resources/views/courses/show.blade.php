@@ -16,7 +16,6 @@
           <p class="card-text"></p>
           <h5 class="card-title">Duration:{{$data["duration"]}}</h5>
           <p class="card-text"></p>
-          {{-- <a href="/posts" class="btn btn-primary">back</a> --}}
         </div>
         <div class="card">
           <h5 class="card-header">Course comments</h5>

@@ -7,7 +7,6 @@
     <div class="card">
   <h5 class="card-header">BY :
 
-    {{-- {{$data->user->name}} --}}
       {{$comment->user_name}}
   </h5>
 

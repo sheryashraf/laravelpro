@@ -38,23 +38,11 @@
     </div>
   </div>
 </div>
-        {{-- <div class="card col-6 ">
-
-      <img src="{{URL::asset('/img/nav1.jpg')}}" class="d-block  card-img-top rounded-pill" alt="..." height="100" width="100">
-
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-  </div>
-</div> --}}
+       
 
 
 
-       {{-- <b>Name:</b> {{auth()->user()->name}} <br/>
-        <b>Email:</b> {{auth()->user()->email}} <br/>
-        <b>role</b> {{auth()->user()->role}} <br/> --}}
-
+    
 
 </div>
 </body>

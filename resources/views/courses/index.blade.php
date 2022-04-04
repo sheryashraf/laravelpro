@@ -3,15 +3,7 @@
 
 <html>
 <head>
-{{-- <style>
-  .card-header{
-    background: rgb(194, 121, 87);
-  }
 
-    .card-body{
-    background: rgb(228, 203, 188);
-  }
-  </style> --}}
   </head>
 <body >
 
@@ -77,9 +69,7 @@
 <br>
   @endforeach
 
-{{-- @elsecan("isStudent")
 
-@endcan --}}
 
 </div>
 </div>

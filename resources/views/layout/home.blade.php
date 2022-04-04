@@ -19,9 +19,7 @@
       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg02BT3s-d5WDGeQa0HoBoXEkVKOxVDG2tZWY3ikJ6alSvedZbf8JVg_mtfWbYqQmu5QY&usqp=CAU
       " class="d-block w-100" alt="..." height="500" width="500">
     </div>
-      {{-- <div class="carousel-item">
-      <img src="" class="d-block w-100" alt="..." height="500" width="500">
-    </div> --}}
+    
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
